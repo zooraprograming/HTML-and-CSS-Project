@@ -1,0 +1,52 @@
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.logo{
+    width: 300px;
+    margin: 50px;
+    padding-left: 20px;
+}
+
+.logo img{
+    width:100px;
+    float: left;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: cursive;
+    padding: 30px;
+    color: rgb(82, 58, 6);
+}
+ul li{
+    list-style: none;
+    display:inline ;
+}
+
+ul{
+    display: inline;
+}
+
+.parent{
+    width: 100%;
+    color: burlywood;
+    margin-top: 100px;
+}
+.parent div{
+    margin: 1%;
+    width: calc(94% / 3);
+    float: left;
+}
+
+.parent div img{
+    width: 50%;
+}
+
+.paris{
+    border-radius: 50%;
+}
+
